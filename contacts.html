@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <title>Контакты</title>
 </head>
 <body>
@@ -15,11 +15,14 @@
             <div class="header-container">
               <span class="logo">Никита Банников</span>
               <nav class="header-nav">
-                <li><a class="header-link" href="index.html">Главная</a></li>
-                <li><a class="header-link" href="about.html">Обо мне</a></li>
-                <li><a class="header-link" href="#">Проекты</a></li>
-                <li><a class="header-link" href="#">Контакты</a></li>
+                <ul class="header-nav__list">
+                  <li><a class="header-link" href="index.html">Главная</a></li>
+                  <li><a class="header-link" href="about.html">Обо мне</a></li>
+                  <li><a class="header-link" href="projects.html">Проекты</a></li>
+                  <li><a class="header-link" href="contacts.html">Контакты</a></li>
+                </ul>
               </nav>
+              <img class="burger-menu" src="./images/Hamburger_icon.svg.png" alt="бургер-меню">
             </div>
           </div>
     </header>
@@ -30,12 +33,13 @@
                 <h2>Телефон: <a href=”mailto:+79788141827”>+7 978 814 18 27</a>(предпочитаемый способ связи)</h2>
                 <h2>Соцсети:</h2>
                 <div class="bage-container">
-                    <a href="https://vk.com/gwshky"><img class="bage" src="../images/VKlogo.svg" alt=""></a>
-                    <a href="https://t.me/golem7k"><img class="bage" src="../images/tg.png" alt=""></a>
+                    <a href="https://vk.com/gwshky"><img class="bage" src="./images/VKlogo.svg" alt=""></a>
+                    <a href="https://t.me/golem7k"><img class="bage" src="./images/tg.png" alt=""></a>
                 </div>
             </div>
         </div>
     </main>
     <footer></footer>
+    <script src="./index.js"></script>
 </body>
 </html>

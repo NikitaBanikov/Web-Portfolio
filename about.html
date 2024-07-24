@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
     <header>
@@ -15,11 +15,14 @@
             <div class="header-container">
                 <span class="logo">Никита Банников</span>
                 <nav class="header-nav">
-                    <li><a class="header-link" href="#">Главная</a></li>
-                    <li><a class="header-link" href="#">Обо мне</a></li>
-                    <li><a class="header-link" href="#">Проекты</a></li>
-                    <li><a class="header-link" href="#">Контакты</a></li>
-                </nav>
+                    <ul class="header-nav__list">
+                      <li><a class="header-link" href="index.html">Главная</a></li>
+                      <li><a class="header-link" href="about.html">Обо мне</a></li>
+                      <li><a class="header-link" href="projects.html">Проекты</a></li>
+                      <li><a class="header-link" href="contacts.html">Контакты</a></li>
+                    </ul>
+                  </nav>
+                <img class="burger-menu" src="./images/Hamburger_icon.svg.png" alt="бургер-меню">
             </div>
         </div>
     </header>
@@ -30,7 +33,7 @@
                 <div class="about-info-container">
                     <p>3 года и 1 месяц проработал в компании TastyTeam</p>
                     <span>Специализированный проект в области гемблинга, лидер в СНГ и странах Восточной Европы, предоставляющий возможность открывать кейсы для получения игровых предметов, также участие в различных игровых режимов такие как ставки, батлы, контракты</span>
-                    <img class="about-img" src="../images/tastydrop.jpg" alt="tastydrop">
+                    <img class="about-img" src="./images/tastydrop.jpg" alt="tastydrop">
                     <h3>Стек проекта</h3>
                     <ul class="about-list">
                         <li class="about-list__item">Языки программирования: JavaScript, TypeScript</li>
@@ -52,5 +55,6 @@
         </div>
     </main>
     <footer></footer>
+    <script src="./index.js"></script>
 </body>
 </html>

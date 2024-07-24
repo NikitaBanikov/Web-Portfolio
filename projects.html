@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Проекты</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-container">
+              <span class="logo">Никита Банников</span>
+              <nav class="header-nav">
+                <ul class="header-nav__list">
+                  <li><a class="header-link" href="index.html">Главная</a></li>
+                  <li><a class="header-link" href="about.html">Обо мне</a></li>
+                  <li><a class="header-link" href="projects.html">Проекты</a></li>
+                  <li><a class="header-link" href="contacts.html">Контакты</a></li>
+                </ul>
+              </nav>
+              <img class="burger-menu" src="./images/Hamburger_icon.svg.png" alt="бургер-меню">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="project-card">
+                <img src="./images/bookshop.jpg" alt="сайт книжного магазина" class="about-img">
+                <div class="project-info">
+                    <h3 class="project-info__title">Книжный магазин</h3>
+                    <p class="project-info__subtitle">Книжный интернет магазин, основанный на Google Books API, написанный на чистом JS. </br> В проекте реализованы: адаптивная верстка под разные разрешения экранов, слайдер, модульная структура, собрающаяся при помощи Webpack (как JS так и CSS) + минификация, используется SCSS. Книжный магазин реализован по принципу SPA, у самих книг есть звездный рейтинг, их можно как добавлять в корзину, так и убирать из нее. Используется LocalStorage для сохранения состояния корзины, что позволяет сохранять данные между сессиями. </br> Чтобы все работало корректно используйте VPN</p>
+                    <div class="bage-container">
+                        <a href="https://github.com/NikitaBanikov/Bookshop"><img class="bage" src="./images/github.svg" alt="логотип гитхаб"></a>
+                        <a class="project-internet__link" target="_blank" href="https://nikitabanikov.github.io/Bookshop/">Ссылка на сайт</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/design-studio.jpg" alt="сайт книжного магазина" class="about-img">
+                <div class="project-info">
+                    <h3 class="project-info__title">Сайт студии дизайна</h3>
+                    <p class="project-info__subtitle">Сайт студии дизайна, разработанный на чистом JS. <br> Включает адаптивную верстку для корректного отображения на устройствах с разными разрешениями и динамичный слайдер для эффектной демонстрации работ. Проект организован с помощью Webpack, что обеспечивает эффективное управление JS и CSS файлами, а также включает минификацию кода для оптимизации загрузки и повышения производительности. В разделе "We Realize Your Wildest Fantasies" реализована плавная подгрузка изображений из интернета, собранных в отдельный файл с использованием формата JSON, что позволяет быстро и удобно загружать контент.</p>
+                    <div class="bage-container">
+                        <a href="https://github.com/NikitaBanikov/Design-Studio"><img class="bage" src="./images/github.svg" alt="логотип гитхаб"></a>
+                        <a class="project-internet__link" target="_blank" href="https://nikitabanikov.github.io/Design-Studio/">Ссылка на сайт</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./index.js"></script>
+</body>
+</html>
