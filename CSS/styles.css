@@ -173,6 +173,11 @@ footer {
     display: block;
 }
 
+.about-info-container__item {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 426px) {
     .container {
         width: 400px;
@@ -206,8 +211,20 @@ footer {
         margin-bottom: 100px;
     }
 
+    .hero-info {
+        align-items: center;
+    }
+
+    .hero-info__subtitle {
+        width: 350px;
+    }
+
     .footer-container {
         flex-direction: column;
+    }
+
+    .bage-container {
+        flex-wrap: wrap;
     }
 
     .about-img {
@@ -229,6 +246,14 @@ footer {
 
 @media (max-width: 320px) {
     .container {
+        width: 300px;
+    }
+
+    .hero-info__title {
+        width: 300px;
+    }
+
+    .hero-info__subtitle {
         width: 300px;
     }
 
